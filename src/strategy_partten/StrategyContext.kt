@@ -1,4 +1,4 @@
-package strategy_mode
+package strategy_partten
 
 /**
  * 算法上下文类，持有具体的算法对象

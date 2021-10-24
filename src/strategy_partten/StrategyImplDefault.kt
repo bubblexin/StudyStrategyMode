@@ -1,4 +1,4 @@
-package strategy_mode
+package strategy_partten
 
 class StrategyImplDefault:IStrategy {
     override fun calculation() {
