@@ -1,4 +1,6 @@
-package chan_of_responsibility_pattern
+package chan_of_responsibility_pattern.impl
+
+import chan_of_responsibility_pattern.Handler
 
 class HandlerImpl3 : Handler() {
     override fun proceed(intParam:Int) {

@@ -1,5 +1,9 @@
 package chan_of_responsibility_pattern
 
+import chan_of_responsibility_pattern.impl.HandlerImpl1
+import chan_of_responsibility_pattern.impl.HandlerImpl2
+import chan_of_responsibility_pattern.impl.HandlerImpl3
+
 /**
  * 责任链模式
  * 使多个对象都有机会处理请求，从而避免请求的发送者和接受者之间的耦合关系，将这个对象连成一条链，直到有一个对象处理它为止。

@@ -1,6 +1,8 @@
-package strategy_partten
+package strategy_partten.impl
 
-class StrategyImpl2:IStrategy {
+import strategy_partten.IStrategy
+
+class StrategyImpl2: IStrategy {
     override fun calculation() {
         println("strategyImpl2")
     }

@@ -1,5 +1,9 @@
 package strategy_partten
 
+import strategy_partten.impl.StrategyImpl1
+import strategy_partten.impl.StrategyImpl2
+import strategy_partten.impl.StrategyImplDefault
+
 /**
  * 算法上下文类，持有具体的算法对象
  */
